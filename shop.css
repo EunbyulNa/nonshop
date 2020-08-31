@@ -1,0 +1,354 @@
+@charset "UTF-8";
+/*body*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ffe6e6;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/*Side menu*/
+
+.side_menus {
+
+  width: 25%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top:0;
+  left:0;
+  overflow-x: hidden;
+}
+
+.side_menus_wrap {
+
+  width: 69%;
+  height: 100%;
+  margin: 5% 0 0 30%;
+}
+
+.side_menus_wrap h3 {
+
+  margin: 35% 0 0 -10%;
+}
+.menus_wrap {
+  margin-top: 30%;
+}
+
+
+
+.side_menu1 li {
+  margin: 5px;
+  padding: 5px;
+}
+
+
+.side_menu1 li a {
+  color: gray;
+  font-size: 1rem;
+
+}
+
+.side_menu1 li:hover {
+background-color: #d9d9d9;
+}
+
+.search input {
+ margin-top: 20%;
+  border: 1px solid gray;
+  width:150px;
+  box-sizing: border-box;
+  padding: 10px;
+  background-image:url("search.png");
+  background-size: contain;
+  background-position:110px;
+  background-repeat: no-repeat;
+}
+
+.side_menu2 {
+  margin-top: 20%;
+}
+
+.side_menu2 li {
+  margin: 5px;
+  padding: 5px;
+}
+
+.side_menu2 li a {
+  color:black;
+
+}
+
+.side_menu2 li:hover {
+  background-color: #d9d9d9;
+}
+.side_menu2 li a:hover {
+
+  color: black;
+}
+
+
+/*main_wrap*/
+.main_wrap{
+  margin-left: 25%;
+  width: 75%;
+  height: 100%;
+}
+
+
+.head_wrap2 {
+  width: 90%;
+
+}
+/*head*/
+.head_wrap {
+  overflow: hidden;
+ padding: 10px;
+ margin-left: 63%;
+
+}
+
+.head ul li {
+  float:left;
+  padding: 10px;
+}
+
+.head ul li a {
+  color: black;
+}
+
+/*head main image*/
+.head_wrap2 {
+  position: relative;
+}
+
+.head_wrap2 img {
+
+  width: 100%;
+  height:70%;
+}
+
+.center {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: white;
+
+   border: 10px solid #f1f1f1;
+   padding: 15px;
+  z-index: 1;
+}
+
+.center h1 {
+  font-family: 'Raleway', sans-serif;
+ font-size: 3rem;
+
+}
+
+.center h2 {
+
+  font-family: 'Cinzel', serif;
+}
+
+.btn {
+  margin-top: 20px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+   transform: translate(-65%, -50%);
+   background-color: white;
+   color: gray;
+   font-size: 1rem;
+   padding: 15px;
+   border: 1px solid gray;
+   border-radius: 10px;
+   cursor: pointer;
+
+}
+
+.btn p {
+  transition: transform .2s;
+}
+
+.btn p:hover {
+  transform: scale(1.1);
+}
+
+/*Main_section*/
+
+.bestitems {
+  margin: 10% 0 0 3%;
+
+}
+
+
+.cards {
+  overflow: hidden;
+
+}
+
+.card {
+  border: 1px solid gray;
+  float: left;
+  margin: 4% 0 0 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ max-width:230px;
+ text-align: center;
+  transition: transform .2s;
+  cursor: pointer;
+}
+
+.c1 {
+  margin-bottom: 3%;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(0.8);
+}
+.card img {
+  width: 100%;
+}
+
+
+/*insta*/
+
+.insta_wrap {
+
+  margin: 10% 0 5% 0;
+}
+
+hr {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.insta {
+  margin: 9% 0 0 3%;
+}
+
+.instas {
+  overflow: hidden;
+ margin: 2% 0 0 1%;
+
+}
+
+.insta_imgs {
+  float:left;
+  margin-left: 0.5%;
+}
+
+.insta_imgs img {
+  width: 130px;
+ transition: 0.3s
+}
+
+.insta_imgs img:hover {
+  opacity: 0.8;
+}
+
+/*subscribe*/
+.subscribe_wraps {
+  margin: 2% 0 0 2%;
+
+  overflow: hidden;
+  width: 85%;
+  height: 300px;
+  background:url('news.jpg');
+
+}
+
+.container {
+  box-sizing: border-box;
+  margin-top: 7%;
+  text-align: center;
+}
+
+
+.container h2 {
+  font-family: 'Raleway', sans-serif;
+}
+.sub_right {
+  float:left;
+  width: 90%;
+  height: 130px;
+  padding: 50px;
+  margin: 0 auto;
+
+}
+
+.sub_right form {
+    border: 1px solid white;
+  box-sizing: border-box;
+  margin-left: 20%;
+  background-color: white;
+  height: 200px;
+  width: 500px;
+}
+
+.sub_right input[type=text] {
+  box-sizing: border-box;
+  width: 60%;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.sub_right input[type=submit] {
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: white;
+  color: gray;
+}
+
+
+.sub_right input[type=submit]:hover {
+  color: black;
+}
+
+/*footer*/
+
+.footer_wraps {
+
+  width: 85%;
+  overflow: hidden;
+  margin: 5% 0 0 2%;
+}
+
+.footers {
+  margin: 60px;
+  float: left;
+font-family: 'Raleway', sans-serif;
+}
+
+.footers a {
+  text-decoration: none;
+  color: black;
+}
+.footer_icons {
+  overflow: hidden;
+}
+
+.footer_icon {
+  float: left;
+  margin: -2px;
+  width: 50px;
+}
+.copyright {
+  color: gray;
+  font-style: italic;
+ margin-left: 35%;
+}
